@@ -17,7 +17,13 @@
     "autoload": {
         "psr-4": {
             "stekel\\LaravelHelpers\\": "src/"
-        }
+        },
+        "files": [
+			"src/Helpers/Debug.php",
+			"src/Helpers/Formatting.php",
+			"src/Helpers/General.php",
+			"src/Helpers/Random.php"
+		]
     },
     "autoload-dev": {
         "psr-4": {
@@ -29,9 +35,6 @@
             "providers": [
                 "stekel\\LaravelHelpers\\LaravelHelpersServiceProvider"
             ],
-            "aliases": {
-                "LaravelHelpers": "stekel\\LaravelHelpers\\Facades\\LaravelHelpers"
-            }
         }
     }
 }
