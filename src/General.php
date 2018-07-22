@@ -89,3 +89,22 @@ if ( ! function_exists('host') ) {
         return php_uname();
 	}
 }
+
+if ( ! function_exists('makeArray') ) {
+	
+	/**
+	 * Force the given value to be an array
+	 *
+	 * @param  string|array $value
+	 * @return array
+	 */
+	function makeArray(&$value) {
+		
+		if (! is_array($value)) {
+			
+			$value = [$value];
+		}
+		
+		return $value;
+	}
+}

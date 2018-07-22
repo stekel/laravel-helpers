@@ -37,6 +37,7 @@ $ composer require stekel/laravel-helpers
 | `isJson(string $string)` | Checks if the value is json |
 | `prettyPrintJson(string $json)` | Pretty print json |
 | `host()` | Get the current hostname |
+| `makeArray($value)` | Force $value to be an array |
 
 ## Random
 
