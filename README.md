@@ -2,6 +2,14 @@
 
 A personal collection of Laravel helpers.
 
+## Install
+
+Via Composer
+
+``` bash
+$ composer require stekel/laravel-helpers
+```
+
 ## Debug
 
 | Function      | Description   |

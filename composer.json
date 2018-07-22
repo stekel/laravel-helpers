@@ -1,7 +1,7 @@
 {
     "name": "stekel/laravel-helpers",
     "type": "library",
-    "description": "A collection of Laravel helpers, blade directives, components, etc.",
+    "description": "A personal collection of Laravel helpers.",
     "license": "MIT",
     "homepage": "https://github.com/stekel/laravel-helpers",
     "keywords": [
